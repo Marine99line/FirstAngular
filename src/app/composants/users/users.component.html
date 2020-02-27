@@ -1,0 +1,19 @@
+<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+<div class="users_box">
+
+    <div *ngFor="let user of users" class="one_user">
+        <div class="avatar">
+            <img src="{{user.avatar}}"/>
+            <div class="id_box">
+                {{user.id}}
+            </div>
+        </div>
+
+        <h2>{{user.name}}</h2>
+        <div class="infos">
+            <b>email:</b> {{user.email}}<br/>
+            <b>created at:</b> {{user.createdAt}}
+        </div>
+    </div>
+
+</div>
