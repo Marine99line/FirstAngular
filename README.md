@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
 
+It's a personal project for Isifid. I had to display a userlist with all their information from an API with a GET. You can find displayed the name of the user, his created date, and his email, there is also his avatar displayed, and his id behind (with a hover)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
